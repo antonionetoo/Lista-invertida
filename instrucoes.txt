@@ -1,0 +1,12 @@
+Para executar:
+    python3 lista_invertida.py [-s <arquivo.txt> <n>] [-p] [-o <n>] [-h] [-e] < ent.txt
+
+    -s <arquivo.txt> <n> para segmentar o arquivo informado por <arquivo.txt>, <n> vezes (caso o arquivo for pequeno)
+    -p para fazer a pesquisa. As entradas serão lidas do teclado, ou de um arquivo se assim desejar
+    -o <n> para exibir as <n> palavras com maiores ocorrências
+    -h para exibir o histórico das buscas, incluindo o tempo de execução
+    -e para exibir os documentos realçando as respectivas ocorrências da busca
+
+Exemplo:
+    python3 lista_invertida.py -s arquivo1.txt 1 -p -o 10 -h -e < ent.txt
+
